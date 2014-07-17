@@ -1,5 +1,6 @@
 Action recognition
 ==================
+@author: Junhao Hua
 
 Action Recognition & Categories via Spatial-Temporal Features
 
@@ -11,4 +12,3 @@ toolbox
 -----
 : http://vision.ucsd.edu/~pdollar/toolbox/doc/index.html
 
-@author: Junhao Hua
