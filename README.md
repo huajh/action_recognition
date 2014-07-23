@@ -33,8 +33,8 @@ Runing MyDemo.m
 
 (2) then, is_SingleAction_Recog = 1
 
-	a) knn
-	b) or svm
+a) knn
+b) or svm
 	
 3. If you want to test all video samples
 
@@ -59,16 +59,25 @@ Weizmann human action dataset
 (download from : http://www.wisdom.weizmann.ac.il/~vision/SpaceTimeActions.html )
 
 set00/
+
 	ira_walk.avi
+	
 	moshe_jump.avi
+	
 	moshe_run.avi
+	
 	...
 	after running feature extraction, following data generated
+	
 	clip_ira_walk.mat
+	
 	cuboids_ira_walk.mat
+	
 	features_ira_walk.mat
+	
 	...
 set01/
+
 set02/
 ...
 set08/
