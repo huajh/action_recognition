@@ -17,7 +17,6 @@ Runing MyDemo.m
 #Feature Extraction
 
 1. set is_Feature_extract = 1, remove comment
-run:
 
 	conv_movies2clips
 	featuresLGdetect
@@ -29,6 +28,7 @@ run:
 #Classificaton
 
 2. If you just want to test a video sample using KNN or SVM, try
+
 (1) set is_SingleAction_train = 1
 
 (2) then, is_SingleAction_Recog = 1
@@ -39,11 +39,12 @@ run:
 3. If you want to test all video samples
 
  (1)   using knn, set is_Action_knn_Classif = 1
+
  (2)or using svm, set is_Action_svm_Classif = 1
  
 4. if you want to use voting methods
- 
-(1) if just test a video sample, 
+
+ (1) if just test a video sample, 
 	set isCreateCodeBook = 1 
 	set is_vote_Action_Recog = 1
 
@@ -54,6 +55,7 @@ run:
 #DATASET format
 
 Weizmann human action dataset 
+
 (download from : http://www.wisdom.weizmann.ac.il/~vision/SpaceTimeActions.html )
 
 set00/
