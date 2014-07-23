@@ -10,12 +10,12 @@ Dollár, Piotr, et al. "Behavior recognition via sparse spatio-temporal features
 
 toolbox
 -----
-: http://vision.ucsd.edu/~pdollar/toolbox/doc/index.html
+ http://vision.ucsd.edu/~pdollar/toolbox/doc/index.html
 
 Runing MyDemo.m
 
-#Feature Extraction
-
+Feature Extraction
+-----
 1. set is_Feature_extract = 1, remove comment
 
 	conv_movies2clips
@@ -25,8 +25,8 @@ Runing MyDemo.m
 	
 	get and save DATASETSprLG.mat
 
-#Classificaton
-
+Classificaton
+-----
 2. If you just want to test a video sample using KNN or SVM, try
 
 (1) set is_SingleAction_train = 1
@@ -52,8 +52,8 @@ b) or svm
 	set is_vote_recog_test = 1
 
 
-#DATASET format
-
+DATASET format
+-----
 Weizmann human action dataset 
 
 (download from : http://www.wisdom.weizmann.ac.il/~vision/SpaceTimeActions.html )
@@ -84,8 +84,8 @@ set02/
 
 set08/
 
-#file directory setting
-
+file directory setting
+-----
 	TestDir.m
 	OutputDir.m
 	datadir.m
