@@ -6,7 +6,7 @@
 %   Latest update: 2014/4/8
 %
 %Reference:
-%   Doll¨¢r, Piotr, et al. "Behavior recognition via sparse spatio-temporal features." 
+%   DollÂ¨Â¢r, Piotr, et al. "Behavior recognition via sparse spatio-temporal features." 
 %   Visual Surveillance and Performance Evaluation of Tracking and Surveillance, 
 %   2005. 2nd Joint IEEE International Workshop on. IEEE, 2005.
 %
@@ -49,9 +49,9 @@ if (is_Feature_extract)
     %sigma, tau, periodic, thresh, maxn, overlap_r, shr_spt, shr_tmp, show 
     par_stfeatures = {2, 2.5, 1, 2e-4, 300, 1.85, 1, 1, 0};
     
-%    for i=0:(nsets-1)
-%         conv_movies2clips( i );
-%    end;
+    for i=0:(nsets-1)
+         conv_movies2clips( i );
+    end;
     % Detects features for each set of cuboids using stfeatures
     % Load data from clip_*.mat (I, clipname, cliptype)
     % for every video(or clip images)                  
@@ -67,7 +67,8 @@ if (is_Feature_extract)
     %       output: subs, cuboids     
     % save result into cuboids_[activity].mat (clipname,cliptype, cuboids, subs)
     %  
-	%featuresLGdetect( nsets, cliptypes, par_stfeatures );
+
+    featuresLGdetect( nsets, cliptypes, par_stfeatures );
 
     %
     % Dimensionality reduction for cuboids descriptors.
@@ -96,7 +97,7 @@ if (is_Feature_extract)
     %@return cubdesc (   + .par_pca   ), cuboids
     %
 	
-	[cubdesc,cuboids]  = featuresLGpca( nsets, ncuboids, cubdesc, kpca );
+    [cubdesc,cuboids]  = featuresLGpca( nsets, ncuboids, cubdesc, kpca );
 
     % Applies descriptor to every cuboid of every clip of every set.
     % Load data from cuboids_*.mat
@@ -104,7 +105,7 @@ if (is_Feature_extract)
     %    apply_pca using par_pca
     % save feature to features_*.mat (clipname, cliptype, subs,desc)
 
-	featuresLGdesc( nsets, cubdesc ); 
+    featuresLGdesc( nsets, cubdesc ); 
  
     %
     % convert to DATASETS format
