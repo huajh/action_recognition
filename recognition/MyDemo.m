@@ -6,7 +6,7 @@
 %   Latest update: 2014/4/8
 %
 %Reference:
-%   Doll¨¢r, Piotr, et al. "Behavior recognition via sparse spatio-temporal features." 
+%   Dollar, Piotr, et al. "Behavior recognition via sparse spatio-temporal features." 
 %   Visual Surveillance and Performance Evaluation of Tracking and Surveillance, 
 %   2005. 2nd Joint IEEE International Workshop on. IEEE, 2005.
 %
