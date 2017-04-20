@@ -1,5 +1,5 @@
-Action recognition
-==================
+# Action recognition
+ 
 @author: Junhao Hua
 
 Action Recognition & Categories via Spatial-Temporal Features
@@ -8,14 +8,14 @@ This project is mainly based on Prior Dollar's work:
 
 Dollár, Piotr, et al. "Behavior recognition via sparse spatio-temporal features." Visual Surveillance and Performance Evaluation of Tracking and Surveillance, 2005. 2nd Joint IEEE International Workshop on. IEEE, 2005.
 
-toolbox
------
+## toolbox
+
  http://vision.ucsd.edu/~pdollar/toolbox/doc/index.html
 
 Runing MyDemo.m
 
-Feature Extraction
------
+## Feature Extraction
+
 1. set is_Feature_extract = 1, remove comment
 
 	conv_movies2clips
@@ -25,8 +25,8 @@ Feature Extraction
 	
 	get and save DATASETSprLG.mat
 
-Classificaton
------
+## Classificaton
+
 2. If you just want to test a video sample using KNN or SVM, try
 
 (1) set is_SingleAction_train = 1
@@ -52,8 +52,8 @@ b) or svm
 	set is_vote_recog_test = 1
 
 
-DATASET format
------
+## DATASET format
+
 Weizmann human action dataset 
 
 (download from : http://www.wisdom.weizmann.ac.il/~vision/SpaceTimeActions.html )
