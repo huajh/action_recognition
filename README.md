@@ -54,7 +54,7 @@ b) or svm
 
 ## DATASET format
 
-Some DATASETS can be downloaded from [Baidu Cloud](https://pan.baidu.com/s/1c2vSYw4)
+Some DATASETS can be downloaded from [Baidu Cloud](https://pan.baidu.com/s/1c2vSYw4) [(数据集百度云下载)](https://pan.baidu.com/s/1c2vSYw4).
 
 Weizmann human action dataset 
 
